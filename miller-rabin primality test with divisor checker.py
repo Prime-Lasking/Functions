@@ -1,5 +1,5 @@
 
-n = (2**44497)-1
+n = int(input("Choose your number"))
 
 import random
 
@@ -34,6 +34,3 @@ def is_prime_miller_rabin(n, k=5):
 
 
 print(is_prime_miller_rabin(n))
-for x in range(1, n + 1):
-    if (n % x == 0):
-        print(x)
