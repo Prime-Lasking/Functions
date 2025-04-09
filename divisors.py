@@ -1,4 +1,4 @@
-num = 25
+num = int(input("choose your number"))
 
 
 factor1 = 3
