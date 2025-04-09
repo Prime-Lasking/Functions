@@ -1,5 +1,5 @@
 #The fastest primality program
-N = int(input(""))
+N = int(input("Choose your number"))
 import time
 import random
 def is_prime_fermat(n, k=5):
