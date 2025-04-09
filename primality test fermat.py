@@ -1,4 +1,5 @@
 #The fastest primality program
+N = int(input(""))
 import time
 import random
 def is_prime_fermat(n, k=5):
@@ -13,7 +14,7 @@ def is_prime_fermat(n, k=5):
     return "it's prime"
 
 start_time = time.time()
-result = is_prime_fermat(n)
+result = is_prime_fermat(N)
 end_time = time.time()
 
 elapsed_time = end_time - start_time
