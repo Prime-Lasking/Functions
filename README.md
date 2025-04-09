@@ -1,2 +1,2 @@
 # Functions
-functions of all kind
+functions for number theory.
